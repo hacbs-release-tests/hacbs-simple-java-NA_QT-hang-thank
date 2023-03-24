@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-gep8
     spec:
       containers:
-      - image: quay.io/scoheb/user-workload@sha256:69da15dda328ddd489a95c6c47ccbe63c27837b0fd42c556bcb9fdaf128851c4
+      - image: quay.io/scoheb/user-workload@sha256:a410875ea6f9c4902697071ee6da52947db5cd0de6bd2ed6424b34c114b15ef5
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
